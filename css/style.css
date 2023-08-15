@@ -1,0 +1,26 @@
+body {
+    background-color: white;
+}
+
+
+/******PNG design********/
+
+#imgAF {
+    width: 20%;
+    height: 0%;
+    position: relative;
+    bottom: -40vh;
+    left: 10vw;
+}
+
+
+/*****text designs********/
+
+#contactme {
+    font-family: 'Urbanist', sans-serif;
+    position: relative;
+    list-style: none;
+    bottom: -20vw;
+    left: 80vw;
+    font-weight: 500;
+}
