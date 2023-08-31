@@ -1,11 +1,5 @@
 /******Golbal enviroment***********/
-html{
-
-    scroll-behavior: smooth;
-     resize: none;
-}
-
-body {
+html, body{
     background-color: white;
     margin: 0%;
     padding: 0%;
@@ -13,14 +7,16 @@ body {
     align-items: center;
     align-content: center;
     display: flex;
+    scroll-behavior: smooth;
+     resize: none;
+}
 
-}
-h1{
+
+h1,p,a{
     font-family: 'Urbanist', sans-serif;
+    text-decoration: none;
 }
-p{
-    font-family: 'Urbanist', sans-serif;
-}
+
 
 
 .wrapper{
@@ -113,10 +109,18 @@ p{
 
 /********boxes************/
 
+.BoxTxt{
+    display: flex;
+    justify-content: center;
+    
+   
+
+}
+
 .boxLanding{
    
     width: 100%;
-    min-height: 1000px;
+    min-height: 900px;
 }
 
 
@@ -142,7 +146,7 @@ p{
     
 }
 
-.BoxProjects1{
+#BoxProjects1{
     margin: auto;
     display: flex;
     width: 1500px;
