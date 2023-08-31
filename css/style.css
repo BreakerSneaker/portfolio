@@ -117,7 +117,12 @@ a{
 
 /********boxes************/
 
-
+#textBox{
+    display: flex;
+    width: auto;
+    height: 50px;
+    justify-content: center;
+}
 
 .boxLanding{
    
