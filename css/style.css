@@ -1,5 +1,11 @@
 /******Golbal enviroment***********/
-html, body{
+html{
+
+    scroll-behavior: smooth;
+     resize: none;
+}
+
+body {
     background-color: white;
     margin: 0%;
     padding: 0%;
@@ -7,17 +13,18 @@ html, body{
     align-items: center;
     align-content: center;
     display: flex;
-    scroll-behavior: smooth;
-     resize: none;
+
 }
-
-
-h1,p,a{
+h1{
     font-family: 'Urbanist', sans-serif;
-    text-decoration: none;
-    text-align: center;
 }
-
+p{
+    font-family: 'Urbanist', sans-serif;
+   
+}
+a{
+    text-decoration: none;
+}
 
 
 .wrapper{
