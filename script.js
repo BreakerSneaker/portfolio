@@ -1,14 +1,16 @@
 function isMobile(){
-    return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    return navigator.maxTouchPoints>=0 && /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
   
   }
      
   
   if(isMobile()==true){
   
-    window.open('https://breakersneaker.github.io/portfolioMobile/')
+    window.open('https://breakersneaker.github.io/portfolioMobile/');
+    close();
   
   }
+     
   
      
    
