@@ -1,4 +1,14 @@
-if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-    // true for mobile device
-    window.open("https://breakersneaker.github.io/portfolioMobile/");
+function isMobile(){
+    return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+  
   }
+     
+  
+  if(isMobile()==true){
+  
+    window.open('https://breakersneaker.github.io/portfolioMobile/')
+  
+  }
+  
+     
+   
