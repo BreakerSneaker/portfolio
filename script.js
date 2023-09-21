@@ -7,7 +7,6 @@ function isMobile(){
   if(isMobile()==true){
 
 
-    window.confirm('Wow, you are on mobile. Would you like to continue on mobile for better user experience?')
 
     window.location.href="https://breakersneaker.github.io/portfolioMobile/";
   
