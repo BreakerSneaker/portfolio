@@ -6,8 +6,10 @@ function isMobile(){
   
   if(isMobile()==true){
   
-    window.open('https://breakersneaker.github.io/portfolioMobile/');
-    alert("hello world");
+
+    window.location.href = "https://breakersneaker.github.io/portfolioMobile/";
+  
+
     close();
   
   }
