@@ -7,21 +7,18 @@ function isMobile(){
   if(isMobile()==true){
 
 
-    if(window.confirm('Wow, you are on mobile. Would you like to continue on mobile for better user experience?')){
+    window.confirm('Wow, you are on mobile. Would you like to continue on mobile for better user experience?')
 
-      
-      close();
-    }
-  
-     
     window.location.href="https://breakersneaker.github.io/portfolioMobile/";
+  
+   
+    
 
   
    
-   
+    
   
   }
      
-  
-     
+ 
    
