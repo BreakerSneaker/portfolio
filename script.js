@@ -6,7 +6,7 @@ function isMobile(){
   
   if(isMobile()==true){
   
-
+    window.alert("Redirecting to mobile version...")
     window.location.href = "https://breakersneaker.github.io/portfolioMobile/";
   
 
