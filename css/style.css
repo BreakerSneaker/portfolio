@@ -1,5 +1,10 @@
 /******Golbal enviroment***********/
+
+* {
+    resize: none;
+}
 html{
+    resize: none;
 
     scroll-behavior: smooth;
      resize: none;
@@ -180,11 +185,21 @@ a{
     height: 50px;
     justify-content: center;
 }
+#textBox2{
+    display: flex;
+    width: auto;
+    height: 50px;
+    left: 50px;
+    justify-content: center;
+}
+#textLink{
+    padding: 50px;
+}
 
 .boxLanding{
    
     width: 100%;
-    min-height: 700px;
+    min-height: 500px;
 }
 
 
