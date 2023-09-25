@@ -27,10 +27,15 @@ h1, h2, h3{
 }
 p{
     font-family: 'Urbanist', sans-serif;
-   
+    
 }
+
+
 a{
     text-decoration: none;
+    color: black;
+}a:hover{
+    color: #417d94;
 }
 
 
@@ -305,12 +310,3 @@ a{
   /****popup*****/
 
 
-.popup{
-
-
-}
-
-.content{
-    
-}
-  
