@@ -15,8 +15,10 @@ body {
     display: flex;
 
 }
-h1{
+h1, h2, h3{
     font-family: 'Urbanist', sans-serif;
+  
+    
 }
 p{
     font-family: 'Urbanist', sans-serif;
@@ -34,6 +36,39 @@ a{
     
     
 }
+.navBarBox{
+    
+
+    background-color: #264653;
+    border-radius: 0px 0px 15px 15px;
+   
+    text-align: center;
+    display:inline-block;
+    padding: 0px;
+    margin: 0px;
+   
+   
+    
+    color: white;
+    
+
+    box-shadow: 8px 8px 8px 2px rgba(0, 0, 0, .2);
+    transition: color .6s ease-in-out, box-shadow .6s ease-in-out;
+    
+    
+}
+.navBarBox:hover {
+  transition: color .6s ease-in-out, background-color .6s ease-in-out;
+
+
+   background-color: #a3b18a;
+   
+   
+   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, .2);
+
+}
+
+
 
 
 
@@ -42,9 +77,9 @@ a{
 #imgAF {            
     width: 500px;           
     height: 0%;         
-    padding: 50px;          
+    padding: 0px;          
     position: relative;         
-    bottom: -20vh;          
+    bottom: -17vh;          
             
             
 
@@ -62,8 +97,12 @@ a{
 .logoimg{
     width: 200px;           
     height: 0%;         
-    padding: 10px;          
-    position: relative;         
+    padding-top: 35px;
+    padding-left: 25px;  
+    display: flex;
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+    
     bottom: 0;
 
 
@@ -86,7 +125,7 @@ a{
     height: 0%;
     left: 700px;
     position: relative;
-    bottom: -10vh;
+    bottom: -12vh;
     
     animation: fadeIn 2s;
     -webkit-animation: fadeIn 2s;
