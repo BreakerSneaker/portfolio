@@ -84,12 +84,11 @@ a{
 
 /******PNG design********/          
             
-#imgAF {            
-    width: 500px;           
-    height: 0%;         
-    padding: 0px;          
-    position: relative;         
-    bottom: -17vh;          
+#imgAF {
+    
+    position: absolute;           
+    width: 500px;
+    left: 18vh;        
             
             
 
@@ -131,11 +130,11 @@ a{
 #imgContact{
 
     
+
+    
+    position: absolute;
     width: 200px;
-    height: 0%;
-    left: 700px;
-    position: relative;
-    bottom: -12vh;
+    right: 25vh;
     
     animation: fadeIn 2s;
     -webkit-animation: fadeIn 2s;
@@ -148,11 +147,10 @@ a{
     
 }
 .imgVector20{
+    position: absolute;
     width: 200px;
-    height: 0%;
-    left: 490px;
-    position: relative;
-    bottom: -15vh;
+    right: 26vh;
+    bottom: 45vh;
 
 
     animation: fadeIn 2s;
@@ -174,8 +172,18 @@ a{
     
 
     width: 75vw;
-}
+}s
 
+
+
+#bg{
+    
+}
+.video-bg{
+    max-width: 70%;
+    position: absolute;
+    z-index: -1;
+}
 
 /*****text designs********/
 
@@ -187,8 +195,9 @@ a{
 #textBox{
     display: flex;
     width: auto;
-    height: 50px;
+  
     justify-content: center;
+    align-content: center;
 }
 #textBox2{
     display: flex;
@@ -202,7 +211,9 @@ a{
 }
 
 .boxLanding{
-   
+   display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     min-height: 500px;
 }
