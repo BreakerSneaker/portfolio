@@ -1,0 +1,47 @@
+
+/********Global*******/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: inline-flex;
+    padding: 0px 80px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+p{
+    font-size: 30px;
+    padding: 40px;
+}
+/********boxes*******/
+
+
+.introImg{
+    max-width: 80vw;
+    height: auto;
+}
+
+
+
+.TxtBox{
+    padding: 10vh;
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+    
+}
+
+
+.navBox{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
