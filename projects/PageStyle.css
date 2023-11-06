@@ -14,8 +14,12 @@ body{
     flex-wrap: wrap;
 }
 p{
-    font-size: 30px;
-    padding: 40px;
+    font-size: 24px;
+    padding: 20px;
+    width: 876px;
+}
+h1{
+    width: 876px;
 }
 /********boxes*******/
 
@@ -25,10 +29,17 @@ p{
     height: auto;
 }
 
+.imgResize{
+
+    height: auto;
+    max-width: 50vw;
+
+}
+
 
 
 .TxtBox{
-    padding: 10vh;
+    padding: 5vh;
     display: flex;
     width: auto;
     flex-direction: column;
@@ -43,5 +54,5 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 90px;
+    gap: 40px;
 }
