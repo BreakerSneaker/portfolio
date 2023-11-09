@@ -79,7 +79,11 @@ align-items: center;
 /*******img resize*******/
 
 .systemTreeNflow{
-    width: 35vw;
+    max-width: 50vw;
     height: auto;
 
+}
+.sketch{
+    max-width: 800px;
+    height: auto;
 }
