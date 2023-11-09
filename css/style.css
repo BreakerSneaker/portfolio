@@ -1,312 +1,191 @@
-/******Golbal enviroment***********/
 
-* {
-   
-}
-html{
-    resize: none;
-
-    scroll-behavior: smooth;
-     resize: none;
-}
-
-body {
-    background-color: white;
+/*******constnt parameters********/
+*{
     margin: 0%;
     padding: 0%;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+}
+body{
     display: flex;
 
-}
-h1, h2, h3{
-    font-family: 'Urbanist', sans-serif;
-  
-    
+padding: 24px 19px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 40px;
+
 }
 p{
     font-family: 'Urbanist', sans-serif;
-    
+    color: #000;
+
+font-family: Urbanist;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+
 }
-
-
+h1,h2,h3{
+    font-family: 'Urbanist', sans-serif;
+}
 a{
-    text-decoration: none;
-    color: black;
-}a:hover{
-    color: #417d94;
-}
+    font-family: 'Urbanist', sans-serif;
 
-
-.wrapper{
-
-    margin: 0%;
-    padding: 0%;
-    
-    
-}
-.navBarBox{
-    
-
-   
-    border-radius: 0px 0px 15px 15px;
-   
     text-align: center;
-    display:inline-block;
-    padding: 0px;
-    margin: 0px;
-   
-   
-   
-    color: black;
-    
-
-    
-    transition: color .6s ease-in-out, background-color .6s ease-in-out;
-    
-    
-}
-.navBarBox:hover {
-  transition: color .6s ease-in-out, background-color .6s ease-in-out;
-
-
-   background-color: #a3b18a;
-   -webkit-filter: invert(100%); /* Safari/Chrome */
-    filter: invert(100%);
-   
-   
-  
-
+    text-decoration: none;
 }
 
-
-
-
-
-/******PNG design********/          
-            
-#imgAF {
+ul{
+    width: 1145px;
     
-    position: absolute;           
-    width: 450px;
-    left: 15vh;        
-            
-            
-
-
-
-
-    animation: fadeIn 9s;
-    -webkit-animation: fadeIn 9s;
-    -moz-animation: fadeIn 9s;
-    -o-animation: fadeIn 9s;
-    -ms-animation: fadeIn 9s;
 }
 
+/***********img edit*************/
 
-.logoimg{
-    width: 170px;           
-    height: 0%;         
+
+#branLogo{
+
     padding: 20px;
+    width: 10vh;
+
+}
+
+
+#imgSize1{
+    
+    width: 20vw;
+    height: auto;
+
+}
+#imgSize2{
+    width: 7vw;
+    height: auto;
+}
+
+#buttonImg{
     display: flex;
-    
-    
-    bottom: 0;
-
-
-
-    animation: fadeIn 2s;
-    -webkit-animation: fadeIn 2s;
-    -moz-animation: fadeIn 2s;
-    -o-animation: fadeIn 2s;
-    -ms-animation: fadeIn 2s;
-
+justify-content: center;
+align-items: center;
+gap: 19px;
 }
 
 
+/*****boxes*******/
+
+.ContactMeBox{
+    display: flex;
+padding: 8px 7px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 8px;
 
 
-#imgContact{
+}
+.box{
+    display: flex;
+    min-width: 1164px;
+    height: 60vh;
+    align-items: center;
+    gap: 582px;
+   
+}
+.boxUL{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 19px;
+}
 
-    
-
-    
-    position: absolute;
-    width: 200px;
-    right: 22vh;
-    
-    animation: fadeIn 2s;
-    -webkit-animation: fadeIn 2s;
-    -moz-animation: fadeIn 2s;
-    -o-animation: fadeIn 2s;
-    -ms-animation: fadeIn 2s;
-    
-
-
-    
+#quoteBox1{
+    width: 1000px;
+    padding: 200px 0px;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+gap: 39px;
 }
 
 
-
-#SocialIcons{
-
-    
-    width: 40px;
-
-}
-.lines{
-    
-
-    width: 75vw;
+#navBtImg{
+ width: 5vw;
+ height: auto; 
 }
 
+/************proects boxes**************/
+
+.ProjectsBoxes{
+    display: flex;
+width: 930px;
+justify-content: center;
+align-items: center;
+align-content: center;
+gap: 6px 0px;
+flex-wrap: wrap;
+}
+
+.nullBox{
+display: flex;
+width: 460px;
+height: 280px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+}
+
+#pelaton{
+    width: 400px;
+height: 226px;
+flex-shrink: 0;
+background-color: red;
+}
+
+#JokLeisrael{
+    width: 400px;
+height: 226px;
+flex-shrink: 0;
+background-color: red;
+}
+
+#MesilotHatora{
+    width: 400px;
+height: 226px;
+flex-shrink: 0;
+
+background-color: red;
+}
+
+#FinalProject{
+    width: 400px;
+    height: 226px;
+    flex-shrink: 0;
+    background-color: red; 
+}
+#SocialNetwork{
+    display: flex;
+width: 156px;
+height: 19.545px;
+justify-content: center;
+align-items: center;
+gap: 34px;
+}
+
+#social-icons{
+    width: 35px;
+    height: auto;
+}
 
 
-
+/*******video********/
 .video-bg{
+    align-content: center;
+    justify-content: center;
     position: absolute;
     max-width: 70%;
     opacity: 100%;
-    
-    
+    top: 0px;
     z-index: -1;
 
 }
-
-/*****text designs********/
-
-
-
-
-/********boxes************/
-
-#textBox{
-    display: flex;
-    width: auto;
-  
-    justify-content: center;
-    align-content: center;
-}
-#textBox2{
-    display: flex;
-    width: auto;
-    height: 50px;
-    left: 50px;
-    justify-content: center;
-}
-#textLink{
-    padding: 50px;
-}
-
-.boxLanding{
-   display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    min-height: 500px;
-}
-
-
-.boxQuote{
-
-    display: flex;
-    font-weight: bold;
-    width: auto;
-    height: 700px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-
-}
-
-#quote{ 
-   
- 
-    
-    font-size: 25px
-
-    
-    
-}
-
-#BoxProjects1{
-    margin: auto;
-    display: flex;
-    width: 1500px;
-    gap: 50px 38px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-        
-        
-   
-}
-.spaceBox{
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    width: auto;
-    height: 100px;
-
-}
-
-
-/*****projects boxes/buttons******/
-
-
-
-
-
-.projectBox{
-    background-color: gray;
-    width: 700px;
-    height: 500px;
-    
-
-
-}
-
-#socialmediabox{
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: auto;
-    height: 100px;
-    
-
-
-}
-
-
-
-
-.iconsBehavior{
-
-    margin: 10px;
-    display: flex;
-    gap: 10px 3px;
-    flex-wrap: wrap;
-    
-}
-
-
-
-/******animations********/
-
-
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-
-
-
-
-  /****popup*****/
-
-

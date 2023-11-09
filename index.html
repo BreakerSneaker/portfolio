@@ -1,165 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css\style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">                                             
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css\videos.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Urbanist">
     <title>BRaN</title>
 </head>
 <body>
-
-
- 
-       
-
-      
-           
-
- 
-    <div class="wrapper"> 
-        <a href="index.html"> 
-            <div class="navBarBox">
-                <img class="logoimg" src="img\icons\BRaN LOGO.png" alt="bran logo">
-                
-            
-            </div>
-        </a>
-       
+    <ul>
+        <a href=""><img id="branLogo" src="img\icons\BRaN LOGO.png" alt=""></a>
         
-        <div class="boxLanding">
+    </ul>
 
-            
-            
 
-            <img id="imgAF" src="img\AbrahamFriasBL.png" alt="Abraham Frias Front-end and UX designer">
-            
-            <a href="testPages.html"><img id="imgContact" src="img\Lets talk! bt.png" alt="Lets, talk!"></a>
-            
-            
-            
-            <video class="video-bg" autoplay muted  >
-                <source id="bg" src="video\WelcomeVideo.mp4" type="video/mp4">
-            </video>
-                
-            
-           
-        </div>
+
+
+
+
+    <div class="box">
+        <img id="imgSize1" src="img\AbrahamFriasBL.png" alt="">
         
-        
-        <div class="spaceBox">
-            <div id="textBox2">
+        <div class="ContactMeBox">
+            <a href="#DownloadCv">Download CV</a>
 
-                <a id="textLink" href="" ><h3>All Projects</h3></a> <a id="textLink" href=""><h3>About me</h3></a>
-            </div>
+            <a href="#letsTalk">
+
+                <img id="imgSize2" src="img\Buttons\Lets talk! bt.png" alt="">
+            </a>
         </div>
-
        
+    </div>
+    <video class="video-bg" autoplay muted  >
+        <source id="bg" src="video\WelcomeVideo.mp4" type="video/mp4">
+    </video>
 
-       <div class="spaceBox">
-        <a id="textBox" href="#BoxProjects1">
-            <h3>Internships</h3>
-           </a>
-     </div>
-
-        <div class="spaceBox">
-            <img class="lines" src="img\Line.png" alt="">
-        </div>
-   
-        <div class="boxQuote">
-            
-            <p id="quote">The measure of success is not weather you have a problem to deal with, but how effectively you solve it
-            </p>
-        </div>
-
-
-
-
-                
-                <div id="BoxProjects1">
-                    
-                
-                    <a class="projectBox" href="projects\pelaton\pelaton.html"></a>
-                    <a class="projectBox" href=""></a> 
-                    <a class="projectBox" href=""></a> 
-                    <a class="projectBox" href=""></a> 
-
-                
-                    
-                </div>
-
-
-
-
-
-
-
-
-
-            
-                <section>
-                    
-            <div class="spaceBox">
-                <img class="lines" src="img\Line.png" alt="">
-            </div>
-
-
-            
-
-                        <div id="socialmediabox">
-
-
-
-                            <a class="iconsBehavior" href="https://www.facebook.com/profile.php?id=100004639966458">
-
-                                <img id="SocialIcons" src="img\icons\facebookico.png" alt="">
-                            </a>
-
-
-
-
-                            <a class="iconsBehavior" href="https://instagram.com/uxdev.il?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
-
-                                <img id="SocialIcons" src="img\icons\instagramico.png" alt="">
-                            </a>
-
-
-
-
-
-                            <a class="iconsBehavior" href="https://www.linkedin.com/in/abrahamyehoshuafrias">
-                                <img id="SocialIcons" src="img\icons\linkdinico.png" alt="">
-                                
-                            </a>
-
-                            
-                            
-                            
-                            
-                        </div>
-
-                    </section>         
-                        
     
-</div>
-</html>
+   
+    <div class="boxUL">
+        
+        <a href="#1">
+            <img id="navBtImg" src="img\Buttons\MyProjectsBT.png" alt="">
+        </a>
+        <a href="#internships">
+            <img id="navBtImg" src="img\Buttons\InternshipBT.png" alt="">
+        </a>
+        <a href="#3">
+            <img id="navBtImg" src="img\Buttons\AboutmeBT.png" alt="">
+        </a>
+
+    </div>
 
 
+    
+
+
+
+    <div id="quoteBox1">
+        <h2>The measure of success is not weather you have a problem to deal with, but how effectively you solve it</h2>
+        <p>-John Foster</p>
+    </div>
+
+
+   
+        <section id="internships" class="ProjectsBoxes">
+            
+            <div class="nullBox">
+                <a href="projects\pelaton\pelaton.html" id="pelaton">
+                
+                </a>
+            </div>
+            
+
+            <div class="nullBox">
+                <a href="" id="JokLeisrael">
+                
+                </a>
+
+            </div>
+           
+
+            <div class="nullBox">
+                <a href="" id="MesilotHatora">
+                
+                </a>
+
+            </div>
+            
+            <div class="nullBox">
+                <a href="" id="FinalProject">
+                
+                </a>
+            </div>
+        </section>
+
+
+
+
+        <section id="SocialNetwork">
+            <a href=""><img id="social-icons" src="img/icons/linkdinico.png" alt=""></a>
+            <a href=""><img id="social-icons" src="img\icons\facebookico.png" alt=""></a>
+            <a href=""><img id="social-icons" src="img\icons\instagramico.png" alt=""></a>
+
+            
+            
+          
+
+        </section>
+  
 </body>
-
-
-
-
-
-
-
-
+</html>
