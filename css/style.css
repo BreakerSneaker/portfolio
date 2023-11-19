@@ -139,14 +139,14 @@ flex-shrink: 0;
     width: 400px;
 height: 226px;
 flex-shrink: 0;
-background-color: red;
+
 }
 
 #JokLeisrael{
     width: 400px;
-height: 226px;
-flex-shrink: 0;
-background-color: red;
+    height: 226px;
+    flex-shrink: 0;
+
 }
 
 #MesilotHatora{
@@ -154,14 +154,14 @@ background-color: red;
 height: 226px;
 flex-shrink: 0;
 
-background-color: red;
+
 }
 
 #FinalProject{
     width: 400px;
     height: 226px;
     flex-shrink: 0;
-    background-color: red; 
+   
 }
 #SocialNetwork{
     display: flex;
