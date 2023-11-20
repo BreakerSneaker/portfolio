@@ -8,13 +8,13 @@
 body{
     display: flex;
  
-    padding: 24px 19px;
+    padding: 50px 19px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
 
-    gap: 20px;
+    gap: 100px;
 }
 p{
     
@@ -34,6 +34,18 @@ justify-content: center;
 align-items: center;
 }
 /********boxes*******/
+
+.boxInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 50px;
+   
+    height: fit-content;
+    background-color: #242424;
+    width: 1180px;
+} 
 
 .boxUL{
     display: flex;
