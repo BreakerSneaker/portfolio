@@ -189,3 +189,10 @@ gap: 34px;
     z-index: -1;
 
 }
+
+
+
+.video{
+    width: 400px;
+    height: auto;
+}
