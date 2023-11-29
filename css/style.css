@@ -7,6 +7,7 @@
 body{
     font-family: 'Urbanist', sans-serif;
     display: flex;
+    padding: 20px 14px;
 
 
 flex-direction: column;
@@ -14,29 +15,6 @@ justify-content: center;
 align-items: center;
 gap: 40px;
 
-}
-p{
-   
-    color: #000;
-
-font-family: Urbanist;
-font-size: 16px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-
-}
-
-a{
-   
-
-    text-align: center;
-    text-decoration: none;
-}
-
-ul{
-    width: 1145px;
-    
 }
 
 /***********img edit*************/

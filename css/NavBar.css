@@ -1,0 +1,50 @@
+
+
+.navigationImg{
+    width: 100px;
+    height: auto;
+}
+.BoxNav{
+
+  
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 450px;
+flex-wrap: wrap;
+}
+
+
+
+
+.NavButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+}
+
+.NavTextBox{
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+
+.NavTextBoxOnPage{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background-color: blue;
+}

@@ -1,0 +1,133 @@
+
+/***********ConstantTags*****************/
+*{
+
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+
+
+    font-family: 'Urbanist', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 14px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 42px 734px;
+    flex-wrap: wrap;
+
+}
+
+/************images********************/
+ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.navigationImg{
+    width: 100px;
+    height: auto;
+}
+
+.links{
+    width: 120px;
+    height: 120px;
+    
+}
+/**********Boxes****************/
+
+
+.boxMain{
+    flex-wrap: wrap;
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 76px;
+}
+
+
+.boxMainContent{
+
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+flex-wrap: wrap;
+gap: 98px;
+}
+.boxMainContent p{
+    flex-wrap: wrap;
+    width: 543px;
+height: 300px;
+}
+
+.boxLinks{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+.boxLinks a{
+    text-decoration: none;
+    color: black;
+}
+
+.boxImg{
+    width: 261px;
+height: 573px;
+overflow: hidden;
+background-color: black;
+}
+
+
+.boxImg img{
+    width: 350px;
+height: auto;
+}
+
+
+.sectionSkills{
+    width: 100%;
+}
+
+
+.boxSkills{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   
+    margin:2px;
+    gap: 10px;
+    
+
+}
+.boxTextSkills{
+    margin: 2px;
+    padding: 10px;
+    border-radius: 10px;
+border: 2px solid #000;
+}
+
+.boxTextSkills p{
+    color: black;
+}
+
+.boxCertificatesimg{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 40px;
+    height: auto;
+}
+
+/**************Navigation*****************/
+
+
