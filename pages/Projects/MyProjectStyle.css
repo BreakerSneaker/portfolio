@@ -1,0 +1,20 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+
+
+    font-family: 'Urbanist', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 14px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 42px 734px;
+    flex-wrap: wrap;
+
+}
