@@ -61,8 +61,10 @@ gap: 8px;
     display: flex;
     min-width: 1164px;
     height: 60vh;
+    justify-content: center;
     align-items: center;
-    gap: 582px;
+    flex-wrap: wrap;
+    gap: calc(25vw - 2vw);
    
 }
 .boxUL{
@@ -171,3 +173,5 @@ gap: 34px;
     width: 400px;
     height: auto ;
 }
+
+

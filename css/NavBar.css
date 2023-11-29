@@ -48,3 +48,29 @@ flex-wrap: wrap;
     border: 1px solid #000;
     background-color: blue;
 }
+
+
+
+
+
+#ColorIndex{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    animation: ColorIndex 5s infinite;
+}
+
+@keyframes ColorIndex {
+  0%{background-color: red;}
+  25%{background-color: blueviolet;}
+  50%{background-color: green;}
+  75%{background-color: blue;}
+  100%{background-color: red;}
+  
+}
